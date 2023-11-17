@@ -3,15 +3,30 @@ PL (power line) controller and the CM19A RF controller.
 
 mochad stands for Multiple Online Controllers for Home Automation Daemon.
 
-0.1.16 Fix "Could not find endpoints" problem.
-0.1.15 Add support for 2011 CM19A.
-0.1.14 Fix OpenRemote too many open sockets problem. Add shutters/blinds command.
-0.1.13 Fix -d debug option. Add support for DS12A.
-0.1.12 Add --raw-data option.
-0.1.11 Fix xdim (extended dim) that only worked for unit code 3.
-0.1.10 Fix major client problem. Commands from clients stopped working.
-0.1.9 Add support for OpenRemote 2.0 with iPhone and Android clients.
-0.1.8 Add support for Chumby application.
+mochad-0.1.21
+
+    * 01/24/22: Fixed many compile errors on Rasberry PI - S Porter steve.porter@yahoo.com
+    * Added mochad.h file
+    * Added mod by J Jones 2018-12-14 here: https://sourceforge.net/p/mochad/discussion/1320002/thread/582c852aa0/
+ 
+mochad-0.1.19
+
+    * Heard rumblings of this version somewhere out there
+
+mochad-0.1.17
+
+    * Fix for Linux distros using systemd-udev such as Raspbian 4.4.
+    * Fix for newer versions of autotools.
+
+mochad-0.1.16 Fix "Could not find endpoints" problem.
+mochad-0.1.15 Add support for 2011 CM19A.
+mochad-0.1.14 Fix OpenRemote too many open sockets problem. Add shutters/blinds command.
+mochad-0.1.13 Fix -d debug option. Add support for DS12A.
+mochad-0.1.12 Add --raw-data option.
+mochad-0.1.11 Fix xdim (extended dim) that only worked for unit code 3.
+mochad-0.1.10 Fix major client problem. Commands from clients stopped working.
+mochad-0.1.9 Add support for OpenRemote 2.0 with iPhone and Android clients.
+mochad-0.1.8 Add support for Chumby application.
 
 
 == Build it
