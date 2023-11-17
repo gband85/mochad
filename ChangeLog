@@ -1,8 +1,31 @@
+mochad-0.1.21
+
+    * 01/24/22: Fixed many compile errors on Rasberry PI - S Porter steve.porter@yahoo.com
+    * Added mochad.h file
+    * Added mod by J Jones 2018-12-14 here: https://sourceforge.net/p/mochad/discussion/1320002/thread/582c852aa0/
+ 
+mochad-0.1.19
+
+    * Heard rumblings of this version somewhere out there
+
+mochad-0.1.17
+
+    * Fix for Linux distros using systemd-udev such as Raspbian 4.4.
+    * Fix for newer versions of autotools.
+
+mochad-0.1.16
+
+    * Fix "Could not find endpoints" problem.
+
+mochad-0.1.15
+
+    * Add support for newer CM19A built in 2011 or later.
+
 mochad-0.1.14
 
     * Fix OpenRemote too many open sockets problem. This result in delayed
     responses to button presses.
-    * Add extended_code_1 command. This can be used to send shutter/blinds
+    * Add extended_code_1 command. This can be used to send shutters/blinds
     control commands.
 
 mochad-0.1.13
